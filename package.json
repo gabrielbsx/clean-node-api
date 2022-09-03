@@ -7,6 +7,7 @@
     "test": "jest --passWithNoTests --watch",
     "test:staged": "jest"
   },
+  "lint-staged": {},
   "author": "gabriel",
   "license": "ISC",
   "devDependencies": {
