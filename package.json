@@ -7,7 +7,7 @@
     "test": "jest",
     "test:staged": "jest"
   },
-  "author": "",
+  "author": "gabriel",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.0.0",
