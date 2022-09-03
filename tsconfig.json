@@ -6,8 +6,5 @@
     "esModuleInterop": true,
     "allowJs": true,
     "strictNullChecks": true
-  },
-  "include": [
-    "src/**/*"
-  ]
+  }
 }
