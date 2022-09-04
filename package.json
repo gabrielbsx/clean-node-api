@@ -15,6 +15,7 @@
   "author": "gabriel",
   "license": "ISC",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/jest": "^29.0.0",
     "@types/node": "^18.7.14",
     "@types/validator": "^13.7.6",
@@ -30,7 +31,10 @@
     "lint-staged": "^13.0.3",
     "ts-jest": "^28.0.8",
     "ts-node": "^10.9.1",
-    "typescript": "^4.8.2",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
     "validator": "^13.7.0"
   }
 }
