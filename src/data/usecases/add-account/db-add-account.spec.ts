@@ -9,7 +9,7 @@ interface SutTypes {
 const makeEncrypter = (): Encrypter => {
   class EncrypterStub {
     async encrypt (value: string): Promise<string> {
-      return await new Promise(resolve => resolve('hashed_password'))
+      return new Promise(resolve => resolve('hashed_password'))
     }
   }
 
